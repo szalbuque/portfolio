@@ -5,8 +5,10 @@ coloque nas sessões indicadas*/
 :root{
     /*Insira a variavel das outras cores inspecionando o modelo do figma*/
     /*Se esforce para trabalhar com variáveis, é uma dica profissional valiosa*/
-   --cor-de-fundo: #F5F5F5;
+   --cor-de-fundo: #F5F5F5; 
    --cor-de-link: #000;
+   --cor-texto: #464646;
+   --cor-fundo-box: #EAF2FD;
 }
 
 body {
