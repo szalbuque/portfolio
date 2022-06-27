@@ -7,8 +7,10 @@ coloque nas sessões indicadas*/
     /*Se esforce para trabalhar com variáveis, é uma dica profissional valiosa*/
    --cor-de-fundo: #F5F5F5; 
    --cor-de-link: #000;
-   --cor-texto: #464646;
-   --cor-fundo-box: #EAF2FD;
+   --color-titulos: #464646;
+   --color-fundo-azul: #EAF2FD;
+   --color-caixas: #fbfbfb;
+   --azul-botoes:#2a7ae4;
 }
 
 body {
@@ -41,21 +43,121 @@ Link da documentação oficial!
 https://en.bem.info/methodology/quick-start/*/
 
 /*Sessão Menu*/
-
-section.menu{
-
+/*header completo*/
+section.menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    align-content: flex-end;
+    height: 10vh;
+    margin: 0px 153px;
 }
 
-/*Sessão Title*/
+/*nome e ícone */
+section header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-weight: 700;
+    color: var(--color-titulos);
+}
 
+/* itens do menu */
+nav ul.menu__list {
+    display: flex;
+    justify-content: space-between;
+    width: 750px;
+    font-size: 16px;
+}
+
+/* ajuste do ícone */
+header img {
+    margin-right: 16px;
+}
+
+/*corrigindo margin da sessão de título*/
 section.title{
+    margin: 32px 0px;
+}
 
+/* manipulando tamanho do container */
+div.title__container{
+    width: 800px;
+}
+
+/*título principal*/
+div.title__container h2 {
+    font-size: 56px;
+    font-weight: 700;
+    line-height: 50px;
+}
+
+div.title__div{
+    display: flex;
+    align-content: center;
+    justify-content: space-around;
+    flex-direction: row-reverse;
+}
+
+section.title img.title__profile {
+    width: 300px;
+    height: 300px;
+}
+
+section.title div.title__div div.title__container {
+    font-size: 17px;
+    line-height: 23px;
+    width: 600px;
+}
+
+section.title div.title__div div.title__container ul.title__network {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 16px;
+    width: 500px;
 }
 
 /*Sessão About*/
 
 section.about{
+    padding-left: 110px;
+    padding-right: 350px;
+    background-color: var(--color-fundo-azul);
+}
 
+section.about div.about__container {
+    width: 700px;
+}
+
+section.about div.about__container h3.about__title {
+    font-size: 32px;
+}
+
+section.about div.about__container p.about__paragraph {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 16px;
+}
+
+/*estilo dos títulos das próximas sessões */
+.section__title{
+    font-size: 22px;
+    text-align: center;
+}
+
+/* Sessão Skills */
+section.skills{
+    padding-left: 66px;
+}
+
+section.skills div.skills__line{
+    display: flex;
+    flex-wrap: wrap;
 }
 
 /*Sessão Hobbies*/
