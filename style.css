@@ -227,10 +227,75 @@ div.academic__courses__box ul.academic__courses__list{
 	padding: 0;
 	text-align: center;
 }
+
+div.academic__courses ul li{
+    padding: 0;
+    margin: 32px;
+}
+
+div.academic__courses ul li.academic__courses__item__img{
+    background-color: var(--color-caixas);
+    padding: 8%;
+    height: 128px;
+}
+
+
 /* experiência*/
 
 section.experience{
+    margin:64px;
+    padding: 0px;
+}
 
+section.experience div.experience__box{
+    display:flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+img.experience__img{
+    max-width:66%;
+    width:auto;
+}
+
+div.experience__info{
+    display:flex;
+    flex-direction:column;
+}
+
+div.experience__description{
+    display:flex;
+    justify-content:space-around;
+}
+
+h2.experience__title{
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 25.83px;
+    text-align:center;
+}
+
+h3.experience__text{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 18.78px;
+    text-align:center;
+}
+
+button.experiencia__botao--repo{
+    color: var(--azul-botoes);
+    font-weight: 400;
+    font-size:16px;
+    line-height: 18.78px;
+}
+
+button.experiencia__botao--demo{
+    background-color: var(--azul-botoes);
+    color: white;
+    font-weight: 400;
+    font-size:16px;
+    line-height: 18.78px;
+    border-color: var(--azul-botoes);
 }
 
 /*Contato*/
