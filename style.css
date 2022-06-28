@@ -158,20 +158,75 @@ section.skills{
 section.skills div.skills__line{
     display: flex;
     flex-wrap: wrap;
+    justify-content: space-around;
+    width: 100%;
 }
 
+section.skills div.skills__line div.skills__box {
+        display: flex;
+        flex-direction: column;
+        background-color: var(--color-caixas);
+        align-items: flex-end;
+        padding: 16px;
+        margin: 23px 15px 23px 8px;
+        width: 150px;
+        height: 160px;
+}
+
+.skills__box ul{
+	margin: 0;
+	padding: 0;
+}
 /*Sessão Hobbies*/
 
 section.hobbies{
-    
+    padding-left: 66px;
 }
 
+section.hobbies div.hobbies__line{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    width: 100%;
+}
+
+section.hobbies div.hobbies__line div.hobbies__box {
+    display: flex;
+    flex-direction: column;
+    background-color: var(--color-caixas);
+    align-items: flex-end;
+    padding: 16px;
+    margin: 23px 15px 23px 8px;
+    width: 150px;
+    height: 160px;
+}
+
+.hobbies__box ul{
+	margin: 0;
+	padding: 0;
+}
 /* Experiência Acadêmica*/
 
 section.academic{
-
+    padding: 64px 0;
+	background-color:var(--color-fundo-azul);
 }
 
+section.academic div.academic__courses{
+	display:flex;
+	justify-content: center;
+}
+
+section.academic div.academic__courses div.academic__courses__box{
+	width: 26.5rem;
+	margin: 0 1rem;
+}	
+
+div.academic__courses__box ul.academic__courses__list{
+	margin: 0;
+	padding: 0;
+	text-align: center;
+}
 /* experiência*/
 
 section.experience{
