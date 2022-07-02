@@ -132,6 +132,9 @@ section.about{
 
 section.about div.about__container {
     width: 700px;
+    display: flex;
+    flex-direction: column;
+    margin-left: 53px;
 }
 
 section.about div.about__container h3.about__title {
@@ -251,10 +254,15 @@ section.experience div.experience__box{
     display:flex;
     align-items: center;
     justify-content: space-around;
+    margin-top: 10px;    
+}
+
+div.experience__box:nth-child(2n){
+    flex-direction: row-reverse;
 }
 
 img.experience__img{
-    max-width:66%;
+    max-width:50%;
     width:auto;
 }
 
@@ -301,12 +309,81 @@ button.experiencia__botao--demo{
 /*Contato*/
 
 section.formcontato{
+    padding:60px;
+    display:flex;
+    justify-content: center;
+}
 
+img.formcontato__img{
+    width: 464px;
+    height: 593px;
+}
+
+div.formcontato__text{
+    text-align:left;
+    padding-left:10px;
+    display: flex;
+    flex-direction: column;
+    justify-content:flex-start;
+}
+
+h2.formcontato__title{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 0px;
+}
+
+h3.formcontato__subtext{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 16px;
+}
+
+input.formcontato__input{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+}
+
+.formcontato__textarea{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+}
+
+.formcontato__botao{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    background-color: var(--azul-botoes);
+    color:white;
+    width: 165px;
+    height: 51px;
+    border-width: 0;
+}
+
+div.formcontato__contacto{
+    display:flex;
+    flex-direction:column;
+    justify-content:space-between;
+}
+
+form.formcontato__form{
+    padding-left:10px;
+    display:flex;
+    flex-direction:column;
+    justify-content: space-around;
+    flex-grow: 1;
 }
 
 /*footeer*/
 
 section.footer{
+    text-align:center;
    
 }
 
