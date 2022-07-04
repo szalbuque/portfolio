@@ -50,7 +50,9 @@ section.menu {
     align-items: center;
     align-content: flex-end;
     height: 10vh;
-    margin: 0px 153px;
+    /*margin: 0px 153px;*/
+    margin-left: 10rem;
+    margin-right:10rem;
 }
 
 /*nome e ícone */
@@ -77,17 +79,18 @@ header img {
 
 /*corrigindo margin da sessão de título*/
 section.title{
-    margin: 32px 0px;
+    margin-left: 10rem;
+    margin-right:10rem;
 }
 
 /* manipulando tamanho do container */
 div.title__container{
-    width: 800px;
+   width: 700px;
 }
 
 /*título principal*/
 div.title__container h2 {
-    font-size: 56px;
+    font-size: 50px;
     font-weight: 700;
     line-height: 50px;
 }
@@ -102,6 +105,8 @@ div.title__div{
 section.title img.title__profile {
     width: 300px;
     height: 300px;
+    border: none;
+    border-radius: 100%;
 }
 
 section.title div.title__div div.title__container {
@@ -125,8 +130,10 @@ section.title div.title__div div.title__container ul.title__network {
 /*Sessão About*/
 
 section.about{
-    padding-left: 110px;
-    padding-right: 350px;
+    /*padding-left: 150px;
+    padding-right: 350px;*/
+    margin-left: 10rem;
+    margin-right:10rem;
     background-color: var(--color-fundo-azul);
 }
 
@@ -134,7 +141,7 @@ section.about div.about__container {
     width: 700px;
     display: flex;
     flex-direction: column;
-    margin-left: 53px;
+    margin-left: 7rem;
 }
 
 section.about div.about__container h3.about__title {
@@ -155,7 +162,9 @@ section.about div.about__container p.about__paragraph {
 
 /* Sessão Skills */
 section.skills{
-    padding-left: 66px;
+    /*padding-left: 66px;*/
+    margin-left: 10rem;
+    margin-right:10rem;
 }
 
 section.skills div.skills__line{
@@ -183,7 +192,9 @@ section.skills div.skills__line div.skills__box {
 /*Sessão Hobbies*/
 
 section.hobbies{
-    padding-left: 66px;
+    /*padding-left: 66px;*/
+    margin-left: 10rem;
+    margin-right:10rem;
 }
 
 section.hobbies div.hobbies__line{
@@ -211,7 +222,9 @@ section.hobbies div.hobbies__line div.hobbies__box {
 /* Experiência Acadêmica*/
 
 section.academic{
-    padding: 64px 0;
+    /*padding: 64px 0;*/
+    margin-left: 10rem;
+    margin-right:10rem;
 	background-color:var(--color-fundo-azul);
 }
 
@@ -246,8 +259,10 @@ div.academic__courses ul li.academic__courses__item__img{
 /* experiência*/
 
 section.experience{
-    margin:64px;
-    padding: 0px;
+    /*margin:64px;
+    padding: 0px;*/
+    margin-left: 10rem;
+    margin-right:10rem;
 }
 
 section.experience div.experience__box{
@@ -309,7 +324,9 @@ button.experiencia__botao--demo{
 /*Contato*/
 
 section.formcontato{
-    padding:60px;
+    /*padding:60px;*/
+    margin-left: 10rem;
+    margin-right:10rem;
     display:flex;
     justify-content: center;
 }
@@ -384,7 +401,8 @@ form.formcontato__form{
 
 section.footer{
     text-align:center;
-   
+    margin-left: 10rem;
+    margin-right:10rem;   
 }
 
 /* Chegou a hora de se desafiar com a responsividade, 
