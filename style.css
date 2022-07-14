@@ -397,6 +397,15 @@ form.formcontato__form{
     flex-grow: 1;
 }
 
+.formcontato__botao{
+    border-radius: 10px;
+    background: var(--azul-botoes);
+}
+
+.formcontato__botao:disabled {
+    background: #ccc;
+  }
+
 /*footeer*/
 
 section.footer{

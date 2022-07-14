@@ -235,11 +235,11 @@
                 <h3 class="formcontato__subtext">Preencha o formulário ao lado e entrarei em contato o mais rápido possível. </h3>
             </div>   
             <form class="formcontato__form">
-                <input class="formcontato__input" type="text" id="nome" placeholder="Nome">
+                <input class="formcontato__input" type="text" id="nome" placeholder="Nome" data-tipo="nome" maxlength="50" required>
                 <input class="formcontato__input" type="email" id="email" placeholder="Email">
-                <input class="formcontato__input" type="text" id="assunto" placeholder="Assunto">
-                <textarea class="formcontato__textarea" rows="5" cols="40" id="mensagem" name="mensagem" placeholder="Sua mensagem"></textarea>
-                <button class="formcontato__botao">Enviar mensagem</button>
+                <input class="formcontato__input" type="text" id="assunto" placeholder="Assunto" maxlength="50" required>
+                <textarea class="formcontato__textarea" rows="5" cols="40" id="mensagem" name="mensagem" placeholder="Sua mensagem" maxlength="300" required></textarea>
+                <button class="formcontato__botao" disabled>Enviar mensagem</button>
             </form>
         </div>
     </section>
@@ -252,7 +252,7 @@
         </div>
     </section>
     <!-- Script Linkado do seu documento de JavaScript -->
-<script src="validate.js"></script>
+<script type="module" src="app.js"></script>
 </body>
 </html>
 
