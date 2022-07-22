@@ -51,7 +51,7 @@ section.menu {
     align-content: flex-end;
     height: 10vh;
     /*margin: 0px 153px;*/
-    margin-left: 10rem;
+    margin-left: 15rem;
     margin-right:10rem;
 }
 
@@ -79,18 +79,18 @@ header img {
 
 /*corrigindo margin da sessão de título*/
 section.title{
-    margin-left: 10rem;
+    margin-left: 20rem;
     margin-right:10rem;
 }
 
 /* manipulando tamanho do container */
 div.title__container{
-   width: 700px;
+   width: 600px;
 }
 
 /*título principal*/
 div.title__container h2 {
-    font-size: 50px;
+    font-size: 35px;
     font-weight: 700;
     line-height: 50px;
 }
@@ -418,15 +418,47 @@ section.footer{
 utilize como referência os breakpoints @media abaixo*/
 
 /*Tablet*/
-@media (min-width: 768px) {
+@media (max-width: 768px) {
 
 /* Menu */
-
+.menu__list__item:nth-child(-n+5){
+    display:none;
+}
 /*title*/
+section.title {
+    display: flex;
+    margin: 100px;
+}
+
+section.about{
+    margin-left:0;
+}
+
+div.about__container{
+    margin-left:0;
+}
 
 /*Skills*/
+section.skills div.skills__line div.skills__box {
+    width: 224px;
+    height: 118px;
+}
+
+section.skills{
+   
+    margin-left: 3rem;
+    margin-right:3rem;
+}
 
 /*Hobbies*/
+section.hobbies{
+    margin-left: 3rem;
+    margin-right:3rem;
+}
+
+section.hobbies div.hobbies__line div.hobbies__box {
+    height: 118px;
+}
 
 /*Experiências acadêmicas*/
 
