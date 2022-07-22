@@ -6,15 +6,6 @@ Veja o resultado em: https://szalbuque.github.io/portfolio/
 
 
 
-## Como incluir meu projeto com a "#" do desafio?
----
-1) Publique seu repositório no Github
-2) Publique seu projeto no GitHub Pages: [Como publicar meus projetos com Github Pages?](https://docs.github.com/pt/pages/getting-started-with-github-pages/creating-a-github-pages-site) 
-3) Utilize o tópico **#challengeoneportifolio2**
-Va na aba esquerda do seu projeto e clique na engrenagem de configuração selecione o campo **topics** e insira a etiqueta **#**
-
-
-![gif-vitrine](https://user-images.githubusercontent.com/91544872/153601047-62aee6cb-e3cf-42b3-92c3-7130c996113f.gif)
 
 ## Como faço a entrega final do meu Projeto?
 ---
