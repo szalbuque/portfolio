@@ -18,7 +18,7 @@ function checkInputs(inputs) {
  
   // a constante 'inputs' vai conter todos os inputs do HTML //
   const inputs = document.querySelectorAll('input');
-  var button = document.querySelector("button");
+  var button = document.querySelector(".formcontato__botao")
   // para cada campo do formulário, adiciona um event listener keyup com a função que habilita //
   // o botão quando todos os campos estiverem preenchidos //
 
