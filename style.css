@@ -178,7 +178,7 @@ section.skills div.skills__line div.skills__box {
         display: flex;
         flex-direction: column;
         background-color: var(--color-caixas);
-        align-items: flex-end;
+        align-items: flex-start;
         padding: 16px;
         margin: 23px 15px 23px 8px;
         width: 150px;
@@ -208,7 +208,7 @@ section.hobbies div.hobbies__line div.hobbies__box {
     display: flex;
     flex-direction: column;
     background-color: var(--color-caixas);
-    align-items: flex-end;
+    align-items: flex-start;
     padding: 16px;
     margin: 23px 15px 23px 8px;
     width: 150px;
